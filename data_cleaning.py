@@ -64,3 +64,5 @@ biden_clean_final = filter_english_entries(biden_clean_filtered, 'cleaned_tweets
 
 trump_clean_final.to_csv('cleaned_tweets_biden.csv')
 biden_clean_final.to_csv('cleaned_tweets_trump.csv')
+
+print("data_cleaning.py finished running")
