@@ -1,9 +1,5 @@
 # EDA
 
-## Data Description
-The most important thing to note about our data is that the raw data is too large to be uploaded to Github. To be able to run our code, 
-you need to follow the link (https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets), download the two csv files, and store them in the data folder. They should be saved as hashtag_donaldtrump.csv and hashtag_joebiden.csv
-
 ## Running The Code
 ### Downloading the data 
 The most important thing to note about our data is that the raw data is too large to be uploaded to Github. To be able to run our code, 
