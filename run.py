@@ -4,7 +4,7 @@ import subprocess
 def install_packages():
     try:
         dependencies = ['numpy', 'pandas', 'regex', 'langdetect', 'matplotlib',
-                        'seaborn', 'OpenAI', 'langchain']
+                        'seaborn', 'OpenAI', 'langchain', 'langid']
         for package in dependencies:
             subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
         print("Packages installed successfully.")
@@ -26,9 +26,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from json import load
 
-filenames = ["data_cleaning.py",
-            "sentiment_analysis.ipynb", 
-            "final_model.ipynb",
+filenames = ["sentiment_analysis.ipynb",
+             "final_model.ipynb",
              "sentiment_analysis_viz_creation.ipynb"]
 
     
