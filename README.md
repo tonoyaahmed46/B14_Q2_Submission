@@ -24,5 +24,7 @@ The most important thing to note about our data is that the raw data is too larg
 you need to follow the link (https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets), download the two csv files, and store them in the data folder. They should be saved as "hashtag_donaldtrump.csv" and "hashtag_joebiden.csv." Please also go into the "data" folder and click into any and all ".zip" files in the folder. This is important for the code to properly run. 
 ### API Key
 Replace all areas with "INSERT_API_KEY" with your own Open AI API key before running the notebook. You can make an API key here: https://platform.openai.com/api-keys
+### Running run.py
+To run all the code, type in python run.py data in your command line in your terminal and press enter(Please note it may be "python3" instead depending on what your system has). This will run our entire project on your system, as well as install any packages you need onto your system.
 
 ## File Descriptions
