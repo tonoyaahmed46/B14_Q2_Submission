@@ -1,4 +1,4 @@
-# DSC180B EDA
+# EDA
 
 ## Data Description
 The most important thing to note about our data is that the raw data is too large to be uploaded to Github. To be able to run our code, 
