@@ -16,7 +16,7 @@ corresponding hashtag, regardless of whether that hashtag was used to express su
 opposition for the tagged candidate. We cleaned the dataset, removing all of the unnecessary
 punctuation, emojis, hashtags, stop words, and also non-english tweets. 
 
-TALK ABOUT THE SPLIT DATA
+We then wanted to divide the users into 5 clusters total. The first group will consists of users who strongly support Biden. The second group will be for those who weakly support Biden. The third group will be for those who are neutral. The fourth group will be for those who weakly support Trump, and the fifth group will be for those who strongly support Trump. As you will see, a certain threshold was used to determine the division of these clusters. These clusters will be 5 new datasets, all labeled accordingly, in order to better represent the different groups of voters. 
 
 ## Running The Code
 ### Downloading the data 
