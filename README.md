@@ -25,6 +25,17 @@ you need to follow the link (https://www.kaggle.com/datasets/manchunhui/us-elect
 ### API Key
 Replace all areas with "INSERT_API_KEY" with your own Open AI API key before running the notebook. You can make an API key here: https://platform.openai.com/api-keys
 ### Running run.py
-To run all the code, type in python run.py data in your command line in your terminal and press enter(Please note it may be "python3" instead depending on what your system has). This will run our entire project on your system, as well as install any packages you need onto your system.
+To run all the code, type in python run.py data in your command line in your terminal and press enter (Please note it may be "python3" instead depending on what your system has). This will run our entire project on your system, as well as install any packages you need onto your system.
 
 ## File Descriptions
+### data_cleaning.py
+This file takes in the raw data from Kaggle. We cleaned the dataset, removing all of the unnecessary punctuation, emojis, hashtags, and stop words. We then filtered tweets, keeping only the ones that are written in English, have multiple words, and are tweeted by users who have tweeted at least 20 times.
+
+### sentiment_analysis.ipynb
+In this file, we calculated the average sentiment of each user’s tweets and classified each user into Biden-supporting voter, Trump-supporting voter, or neutral voter. We then split the Biden-supporting users into Biden Strong and Biden Weak based on a sentiment threshold, and repeated this process for Trump-supporting users as well. This file gives us 5 separate clusters (Biden Strong, Biden Weak, Neutral, Trump Strong, Trump Weak) that we will train our model on.
+
+### final_model.ipynb
+Using the clusters created in `sentiment_analysis.ipynb`, we created 5 separate models to replicate the political affiliation, policy related opinions, opinion polarity, and emotional tone relating to common political discourses for each of these clusters. We performed both semantic and contextual training on these tweets and asked each of the models a set of 9 political questions to gain a general understanding of their political opinions.
+
+### sentiment_analysis_viz_creation.ipynb
+This file creates visualizations based on the sentiments of the models's responses towards each of the political topics asked.
