@@ -4,7 +4,7 @@ import subprocess
 def install_packages():
     try:
         dependencies = ['numpy', 'pandas', 'regex', 'langdetect', 'matplotlib',
-                        'seaborn', 'OpenAI', 'langchain', 'langid']
+                        'seaborn', 'OpenAI', 'langchain', 'langid', 'pysentimiento']
         for package in dependencies:
             subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
         print("Packages installed successfully.")
