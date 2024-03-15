@@ -2,6 +2,8 @@
 
 Link to Website: https://sruthipapanasa.github.io/capstone_website/
 
+Link to Report: https://github.com/vivianlin24/B14-2-Artifact-Directory/blob/main/report.pdf
+
 ## Project Description
 The main goal of politicians is to cater to their constituents and understand the changes they want to see. To do so, they need to be able to accurately identify their target voters, contact and survey them, understand their values and ideals, and predict which policies would best represent such populations. However, this process can often be time-consuming and expensive. Our project aims to help this problem.
 
