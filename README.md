@@ -1,4 +1,4 @@
-# B14-2 Quarter 2 Code
+# Senior Capstone: Developing Political Personas Through Generative Language Modeling
 
 Link to Website: https://sruthipapanasa.github.io/capstone_website/
 
